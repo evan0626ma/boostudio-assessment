@@ -1,15 +1,58 @@
 .main_banner{
     position: relative;
     overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+
   
     .cover{
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
         position: absolute;
         background-color: #000000;
         opacity: .5;
     }
-  
+     
+    .navigate {
+        list-style: none;
+        position: absolute;
+        top:41px;
+        left:950px;
+        display: flex;
+        justify-content: space-between;
+        width: 800px;
+        height: 30px;
+        border: none;
+        z-index: 10;
+    }
+    .navigate li{
+        color: #FFFFFF;
+        font-size: 28px;   
+
+    }
+    .navigate li:last-child{
+        font-size: 30px;
+        text-align: center;
+        display: block;
+        width: 150px;
+        height: 40px;
+        background-color: #CF551C;
+        border: 1px solid #CF551C;
+        border-radius: 10%;
+        
+    }
+    .logo{
+        width: 242px;
+        height: 56px;
+        background-image: url(../../img/BOOStudio_Logo.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        top:509px;
+        left:839px;
+
+    }
+
 
 
 }
