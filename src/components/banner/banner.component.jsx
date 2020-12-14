@@ -1,37 +1,32 @@
 import React from 'react';
-import '../../video/brief_video.mp4';
+import './banner.styles.scss'
+import ReactPlayer from 'react-player/lazy'
 
 
 
-
-const Video = () => {
+const Banner = () => {
     return (
-            <video autoPlay playsInline muted src={Video} />
- 
-    );
-}
-
-
-class Banner extends React.Component{
-    constructor(){
-        super();
-    }
-
-    render (){
-
-        return(
         <div className='main_banner'>
-            
-            <Video />            
-    
+           <div className="cover">
+           <ul className="">
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+               <li></li>
+           </ul>
+           </div> 
+          <ReactPlayer 
+          width="1920px" 
+          height="1080px" 
+          controls playing='true' muted url="https://video.wixstatic.com/video/44e661_3b0dd98fd8174edcaf41bb8fa9e52d26/360p/mp4/file.mp4"/>
         </div>
-
-        )
-
-    }
-
-
+        
+    )
 }
+
 
 
 
