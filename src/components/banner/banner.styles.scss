@@ -10,49 +10,43 @@
         height: 100%;
         position: absolute;
         background-color: #000000;
-        opacity: .5;
-    }
-     
-    .navigate {
-        list-style: none;
-        position: absolute;
-        top:41px;
-        left:950px;
-        display: flex;
-        justify-content: space-between;
-        width: 800px;
-        height: 30px;
-        border: none;
-        z-index: 10;
-    }
-    .navigate li{
+        opacity: .8;
         color: #FFFFFF;
-        font-size: 28px;   
-
-    }
-    .navigate li:last-child{
-        font-size: 30px;
         text-align: center;
-        display: block;
-        width: 150px;
-        height: 40px;
-        background-color: #CF551C;
-        border: 1px solid #CF551C;
-        border-radius: 10%;
+
+        z-index: 10000000000;
+
+        .navigate {
+            position: absolute;
+            right: 100px;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            width: 800px;
+            height: 30px;
+            border: none;
+            font-size: 1.3rem;  
+            font-weight: 500;
+
+            button{
+                font-size: 1rem;
+                color: #ffffff;
+                font-weight: bold;
+                border-radius: 8px 8px 8px 8px;
+                -moz-border-radius: 8px 8px 8px 8px;
+                -webkit-border-radius: 8px 8px 8px 8px;
+                border: 0px solid #000000;
+                background-color: #CF551C;
+                border: none;
+                padding: 6px 20px 6px 20px;
+            
+                
+        }
+       
+   
         
+       }
     }
-    .logo{
-        width: 242px;
-        height: 56px;
-        background-image: url(../../img/BOOStudio_Logo.jpg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        position: relative;
-        top:509px;
-        left:839px;
-
-    }
-
 
 
 }

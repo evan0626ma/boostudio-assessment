@@ -1,40 +1,31 @@
 .project-item{
     position: relative;
-    margin-top: 51px;
-    min-width: 1482px;
-    height: 840px;
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    border: none;
-
-    &:hover{
-           
-        opacity: .5;
-
-        & .background-image{
-            transform: scale(1.1);
-            transition: transform 6s cubic-bezier(0.25,0.45,0.45,0.95);
-        }       
-    }
+    background-color: white;
+    min-width: 18.75rem;
+    height: 21.875rem;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    box-shadow: 1px 1px 30px 0px #857985;
+    margin: 60px 90px;
+    
     .background-image{
-        width: 300px;
-        height: 350px;
-        background-position: center;
-        background-size: cover;
-        border:1px solid #FFFFFF;
-        border-radius: 10%;
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
     }
-    .title{
-        font-weight: bold;
-        font-size: 25px;
-        text-align: center;
-    }
-
-
-
-
-
-
+ span{
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    color: #8C8C8C;
+    margin-left: -50px;
+    font-size: 1.2rem;
+ }
 
 }

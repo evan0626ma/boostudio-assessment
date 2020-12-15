@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectItem from '../project-item/project-item.component';
 import '././project-menu.styles.scss';
-import {zIndex} from 'react-z-index';
+
 
 
 class ProjectMenu extends React.Component{
@@ -14,49 +14,49 @@ class ProjectMenu extends React.Component{
             sections:[
                 {
                     title:'Bailey Nelson',
-                    imageUrl:'../../img/Projects/b-n.jpg',
+                    imageUrl:'../../img/b-n.jpg',
                     id:1,
                     linkUrl:'project/BN'
                 },
                 {
                     title:'Don Julio',
-                    imageUrl:'../../img/Projects/donjulio.jpg',
+                    imageUrl:'../../img/donjulio.jpg',
                     id:2,
                     linkUrl:'project/Donjulio'
                 },
                 {
                     title:'Google Pixel',
-                    imageUrl:'../../img/Projects/google-pixel.jpg',
+                    imageUrl:'../../img/google-pixel.jpg',
                     id:3,
                     linkUrl:'project/Google-pixel'
                 },
                 {
                     title:'Heineken',
-                    imageUrl:'../../img/Projects/heineken.jpg',
+                    imageUrl:'../../img/heineken.jpg',
                     id:4,
                     linkUrl:'project/Heineken'
                 },
                 {
                     title:'NSW Blues',
-                    imageUrl:'../../img/Projects/nsw-blue.jpg',
+                    imageUrl:'../../img/nsw-blue.jpg',
                     id:5,
                     linkUrl:'project/NSW-Blues'
                 },
                 {
                     title:'Panhead',
-                    imageUrl:'../../img/Projects/panhead.jpg',
+                    imageUrl:'../../img/panhead.jpg',
                     id:6,
                     linkUrl:'project/Panhead'
                 },
                 {
                     title:'Smirnoff',
-                    imageUrl:'../../img/Projects/smirnoff.jpg',
+                    imageUrl:'../../img/smirnoff.jpg',
                     id:7,
                     linkUrl:'project/Smirnoff'
                 },
                 {
                     title:'Tanqueray Terrace',
-                    imageUrl:'../../img/Projects/tanqueray-terraces.jpg',
+                    imageUrl:'../../img/tanqueray-terraces.jpg',
                     id:8,
                     linkUrl:'project/Tanqueray'
                 }

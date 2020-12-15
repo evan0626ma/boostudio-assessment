@@ -1,28 +1,27 @@
 import React from 'react';
-import {withRouter} from 'react-router-dom';
+
 import './project-item.styles.scss';
 
 
-const ProjectItem =({title,imageUrl,linkUrl})=>(
 
 
-        <div  className='project-item'
-            onClick={()=>this.push(`${linkUrl}`)}
-        
-        >
+const ProjectItem =({id,title,imageUrl,linkUrl})=>(
+  
+
+        <div  className='project-item'>
             
-           <div className='background-image'
-             style={{
-                 backgroundImage:`url($(imageUrl))`
-             }}
-            />
+        <div className='background-image' 
+        style={{
+          
+          backgroundImage: `url(${imageUrl})`,
+          
+        }} />
            <div className='item-content'>
-             <h3 className='title'>{title}</h3>
+             <span className='title'>{title}</span>
            </div>
         </div>
 
-    
+        
+  )
 
-);
-
-export default withRouter (ProjectItem);
+export default ProjectItem;

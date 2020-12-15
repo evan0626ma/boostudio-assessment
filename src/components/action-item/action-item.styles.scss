@@ -1,0 +1,33 @@
+.action-item{
+
+    width: 18.75rem;
+    height: 18.75rem;
+    padding: 20px;
+    background-color: #CF551C;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    box-shadow: 1px 1px 30px 0px #857985;
+    text-align: center;
+
+   
+    
+    .title{  
+  
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+    
+    
+    .item-content{
+      
+        color:#FFFFFF;
+    }
+
+
+
+}
