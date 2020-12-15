@@ -1,0 +1,40 @@
+.project-item{
+    position: relative;
+    margin-top: 51px;
+    min-width: 1482px;
+    height: 840px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border: none;
+
+    &:hover{
+           
+        opacity: .5;
+
+        & .background-image{
+            transform: scale(1.1);
+            transition: transform 6s cubic-bezier(0.25,0.45,0.45,0.95);
+        }       
+    }
+    .background-image{
+        width: 300px;
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        border:1px solid #FFFFFF;
+        border-radius: 10%;
+    }
+    .title{
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+}
